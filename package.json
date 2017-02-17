@@ -1,0 +1,17 @@
+{
+    "name": "win-and-continue",
+    "version": "0.0.1",
+    "description": "Library for calculating winning chances for team win and contine tournaments, such as the Nongshim Cup. Assumes ELO ratings.",
+    "main": "win-and-continue.js",
+    "scripts": {
+	"test": "mocha test.js"
+    },
+    "author": "Justin Blank",
+    "license": "CC0-1.0",
+    "devDependencies": {
+	"mocha": "^3.2.0",
+	"@types/node": "^6.0.45",
+	"install": "^0.8.1",
+	"npm": "^3.10.8"
+    }
+}
