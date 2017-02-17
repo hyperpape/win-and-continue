@@ -18,8 +18,8 @@ export class TournamentState {
     // teams array. If the index is for the winning team, the player
     // will be the one who just won. If the index is for any other
     // team, the player will not yet have played. Though somewhat
-    // confusing, this means that we always the losing team's index
-    // when processing the result of a game.
+    // confusing, this means that we always increment the losing
+    // team's index when processing the result of a game.
     teamIndices: Array<number>;
     // Indices of the winning team, losingTeam, and lastTeam in the teams array. See
     // getNextTeam() for an explanation of why all three are necessary.
